@@ -32,3 +32,13 @@ div {
     background-color: #f2f2f2;
     margin-top: 1px solid #e4e4e4;
 }
+
+#logo {
+    width: 292px;
+    height: 92px;
+}
+
+#logo-container {
+    min-height: 100px;
+    padding-top:110px;
+}
