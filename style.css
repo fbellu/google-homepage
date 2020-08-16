@@ -42,6 +42,16 @@ div.filler {
     box-shadow: none;
     z-index: 3;
 }
+
+.outerbar * {
+    border: none;
+}
+
+.outerbar:hover, .outerbar input:active{
+    box-shadow: 0px 1px 6px rgba(32,33,36,0.28), 
+                0px 1px 6px rgba(32,33,36,0.28);
+}
+
 .innerbar{
     display: flex;
     flex: 1;
