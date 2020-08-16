@@ -55,8 +55,13 @@ div.filler {
 .innerbar{
     display: flex;
     flex: 1;
-    padding: 5px 8px 0 px 14px;
+    padding: 5px 8px 0px 14px;
     border: none;
+}
+
+.innerbar * {
+    height: 100%;
+    max-width: auto;
 }
 
 .footer {
